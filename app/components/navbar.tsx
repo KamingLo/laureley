@@ -24,7 +24,7 @@ function ModernNavbar() {
         >
             <Container>
                 <Navbar.Brand href="#home" className="fw-bold text-brand fs-3" style={{letterSpacing: '3px'}}>
-                    L A U R E L
+                    L A U R E L E Y
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className="border-0 shadow-none bg-light"/>
                 <Navbar.Collapse id="navbarScroll">

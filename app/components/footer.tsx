@@ -8,7 +8,7 @@ export default function Footer(){
         <Container>
             <Row className="gy-4">
                 <Col lg={4} md={6} className="mb-4">
-                    <h3 className="fs-3 fw-bold text-brand mb-3" style={{letterSpacing: '3px'}}>LAUREL</h3>
+                    <h3 className="fs-3 fw-bold text-brand mb-3" style={{letterSpacing: '3px'}}>LAURELEY</h3>
                     <p className=" pe-lg-5">
                         Menghadirkan aroma samudra yang elegan dan misterius. Setiap tetes adalah karya seni yang membangkitkan memori.
                     </p>
@@ -64,7 +64,7 @@ export default function Footer(){
 
             <Row className="mt-5 pt-4 border-top border-secondary border-opacity-25">
                 <Col md={6} className="text-center text-md-start">
-                    <p className="mb-0  small">&copy; {new Date().getFullYear()} Laurel Perfumery. All rights reserved by Kaming.</p>
+                    <p className="mb-0  small">&copy; {new Date().getFullYear()} Laureley Perfumery. All rights reserved by Kaming.</p>
                 </Col>
                 <Col md={6} className="text-center text-md-end mt-3 mt-md-0">
                     <Link href="#" className=" small text-decoration-none me-3">Privacy Policy</Link>

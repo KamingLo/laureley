@@ -25,10 +25,10 @@ export default function Home() {
                         <span className="text-brand text-uppercase small">Our Story</span>
                         <h2 className="display-5 fw-bold text-white mt-2">Born from the <span className="text-brand">Ocean</span></h2>
                         <p className="mt-4">
-                            Laurel merupakan maison parfum dari Prancis yang didirikan pada tahun 1990 oleh seorang perfumer independen bernama Éloise Laurent, wanita yang tumbuh di wilayah Provence—tempat ladang lavender, citrus, dan angin laut menjadi bagian kehidupan sehari-hari.
+                            Laureley merupakan maison parfum dari Prancis yang didirikan pada tahun 1990 oleh seorang perfumer independen bernama Éloise Laurent, wanita yang tumbuh di wilayah Provence—tempat ladang lavender, citrus, dan angin laut menjadi bagian kehidupan sehari-hari.
                         </p>
                         <p className="text mb-4">
-                            Dengan ambisi menciptakan aroma yang jujur dan berkarakter, Éloise membangun Laurel sebagai rumah parfum yang menjembatani seni perfumery klasik dengan sentuhan modern. Setiap rancangannya menekankan kesederhanaan yang elegan, bahan alami berkualitas tinggi, dan harmoni wangi yang bisa dipakai sehari-hari.
+                            Dengan ambisi menciptakan aroma yang jujur dan berkarakter, Éloise membangun Laureley sebagai rumah parfum yang menjembatani seni perfumery klasik dengan sentuhan modern. Setiap rancangannya menekankan kesederhanaan yang elegan, bahan alami berkualitas tinggi, dan harmoni wangi yang bisa dipakai sehari-hari.
                         </p>
                         <Button className="btn-brand">Read More</Button>
                     </Col>
@@ -38,7 +38,7 @@ export default function Home() {
                              <div className="position-absolute top-0 start-0 w-100 h-100 border-brand"></div>
                              <Image 
                                 src="/images/about.jpg" 
-                                alt="About Laurel" 
+                                alt="About Laureley" 
                                 width={450} 
                                 height={550} 
                                 className="img-fluid"
