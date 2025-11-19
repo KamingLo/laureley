@@ -54,9 +54,3 @@ Ikuti langkah-langkah ini untuk menjalankan proyek di komputer lokal Anda:
 
 5.  **Buka Browser**
     Buka [http://localhost:3000](http://localhost:3000) untuk melihat hasilnya.
-
-## 🎨 Kustomisasi Tema
-
-Semua warna utama diatur menggunakan CSS Variables di file `app/globals.css`. Anda dapat mengubah nuansa warna dengan mudah:
-
-```css
