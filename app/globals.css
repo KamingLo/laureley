@@ -1,42 +1,129 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-dark: #0b1120; /* Dark Navy/Black */
+  --bg-card: #121b2e; /* Slightly lighter navy */
+  /* Warna Sky/Ocean Blue yang elegan */
+  --brand-blue: #48cae4; 
+  --brand-glow: rgba(72, 202, 228, 0.5);
+  --text-main: #e0e0e0;
+  --text-muted: #94a3b8;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+html {
+  scroll-behavior: smooth !important; /* KUNCI UNTUK ONE PAGE NAV */
+  scroll-padding-top: 80px; /* Agar judul tidak tertutup navbar saat di-klik */
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-geist-sans), sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/* Efek Neon Parfum (Lebih Soft/Elegant) */
+.text-brand {
+  color: var(--brand-blue) !important;
+  text-shadow: 0 0 15px var(--brand-glow);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.border-brand {
+  border: 1px solid var(--brand-blue) !important;
+  box-shadow: 0 0 10px var(--brand-glow);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.border-brand-bottom {
+  border-bottom: 1px solid rgba(72, 202, 228, 0.3) !important;
+  box-shadow: 0 4px 20px -5px var(--brand-glow);
+}
+
+/* Component Styling */
+.bg-dark-custom {
+  background-color: rgba(11, 17, 32, 0.95) !important; /* Sedikit transparan */
+  backdrop-filter: blur(10px);
+}
+
+.card-perfume {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(72, 202, 228, 0.1);
+  color: var(--text-main);
+  transition: all 0.4s ease;
+}
+
+.card-perfume:hover {
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 25px rgba(72, 202, 228, 0.15);
+  transform: translateY(-8px);
+}
+
+.form-control{
+  background-color: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.form-control:focus {
+  background-color: #1e293b;
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 10px var(--brand-glow);
+  color: white;
+}
+
+/* Button Elegant */
+.btn-brand {
+  background-color: transparent;
+  border: 1px solid var(--brand-blue);
+  color: var(--brand-blue);
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Spasi huruf lebar agar mewah */
+  font-size: 0.8rem;
+  padding: 10px 25px;
+  transition: all 0.3s;
+}
+
+.btn-brand:hover {
+  background-color: var(--brand-blue);
+  color: #0b1120;
+  box-shadow: 0 0 20px var(--brand-glow);
+}
+
+/* Styling untuk Tombol Carousel (Panah) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: drop-shadow(0 0 5px var(--brand-blue)); /* Efek glowing */
+  background-color: rgba(11, 17, 32, 0.5); /* Background gelap transparan */
+  border: 1px solid rgba(72, 202, 228, 0.3);
+  border-radius: 50%; /* Membuat tombol bulat */
+  padding: 25px; /* Ukuran tombol */
+  background-size: 50%; /* Ukuran icon panah di dalam */
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+  box-shadow: 0 0 15px var(--brand-glow);
+  /* Filter invert agar panah menjadi hitam saat hover (kontras dengan background biru) */
+  filter: invert(1) drop-shadow(0 0 2px white); 
+}
+
+/* Styling Indikator (Titik-titik di bawah) */
+.carousel-indicators [data-bs-target] {
+  background-color: var(--brand-blue);
+  height: 4px;
+  border-radius: 2px;
+  box-shadow: 0 0 5px var(--brand-glow);
+}
+
+.hover-white:hover {
+  color: #fff !important;
+  transition: color 0.3s ease;
+  padding-left: 5px; /* Efek geser sedikit saat hover */
+}
+
+.hover-brand:hover {
+  color: var(--brand-blue) !important;
+  text-shadow: 0 0 10px var(--brand-glow);
 }
