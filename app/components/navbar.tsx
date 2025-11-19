@@ -26,19 +26,17 @@ function ModernNavbar() {
                 <Navbar.Brand href="#home" className="fw-bold text-brand fs-3" style={{letterSpacing: '3px'}}>
                     L A U R E L
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" className="border-0 shadow-none bg-light opacity-75" />
+                <Navbar.Toggle aria-controls="navbarScroll" className="border-0 shadow-none bg-light"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="ms-auto my-2 my-lg-0 align-items-center">
                         <Nav.Link href="#home" className="text-white mx-3 small text-uppercase">Home</Nav.Link>
                         <Nav.Link href="#about" className="text-white mx-3 small text-uppercase">Story</Nav.Link>
                         <Nav.Link href="#collection" className="text-white mx-3 small text-uppercase">Collection</Nav.Link>
                         <Nav.Link href="#features" className="text-white mx-3 small text-uppercase">Essence</Nav.Link>
-                    </Nav>    
-                    <div className="d-flex ms-lg-4">
-                        <Button href="#contact" variant="outline-light" className="btn-brand rounded-0">
+                        <Button href="#contact" variant="outline-light" className="mt-3 btn-brand rounded-0">
                             Order Now
                         </Button>
-                    </div>
+                    </Nav>    
                 </Navbar.Collapse>
             </Container>
         </Navbar>

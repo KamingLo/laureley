@@ -7,7 +7,6 @@ export default function Footer(){
     <footer id="footer" style={{backgroundColor: 'var(--bg-card)'}} className="pt-5 pb-3 border-top border-secondary border-opacity-25">
         <Container>
             <Row className="gy-4">
-                {/* Kolom 1: Brand Identity */}
                 <Col lg={4} md={6} className="mb-4">
                     <h3 className="fs-3 fw-bold text-brand mb-3" style={{letterSpacing: '3px'}}>LAUREL</h3>
                     <p className=" pe-lg-5">
@@ -21,12 +20,11 @@ export default function Footer(){
                     </div>
                 </Col>
 
-                {/* Kolom 2: Collections */}
                 <Col lg={2} md={6} className="mb-4">
                     <h5 className="text-white fw-bold mb-3 text-uppercase small tracking-widest">Collections</h5>
                     <ul className="list-unstyled">
-                        <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Men's Scents</Link></li>
-                        <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Women's Scents</Link></li>
+                        <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Men&apos;s Scents</Link></li>
+                        <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Women&apos;s Scents</Link></li>
                         <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Unisex</Link></li>
                         <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Gift Sets</Link></li>
                         <li className="mb-2"><Link className="text-secondary text-decoration-none hover-brand" href="#">Best Sellers</Link></li>
