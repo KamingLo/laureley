@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Neon Dark Portfolio",
-  description: "Modern Neon Dark Theme",
+  title: "Laureley | Feminime Modern Perfume",
+  description: "The most famous aromatic perfume",
 };
 
 export default function RootLayout({
