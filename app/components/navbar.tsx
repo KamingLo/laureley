@@ -33,7 +33,7 @@ function ModernNavbar() {
                         <Nav.Link href="#about" className="text-white mx-3 small text-uppercase">Story</Nav.Link>
                         <Nav.Link href="#collection" className="text-white mx-3 small text-uppercase">Collection</Nav.Link>
                         <Nav.Link href="#features" className="text-white mx-3 small text-uppercase">Essence</Nav.Link>
-                        <Button href="#contact" variant="outline-light" className="mt-3 btn-brand rounded-0">
+                        <Button href="#contact" variant="outline-light" className="btn-brand rounded-0">
                             Order Now
                         </Button>
                     </Nav>    
